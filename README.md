@@ -1,4 +1,4 @@
-#SIMPLE PRODUCT LIST APP FOR CANO
+# SIMPLE PRODUCT LIST APP FOR CANO
 
 This application is a very simple implementation of a sortable and filterable list of products and their environmental impact.
 
@@ -10,7 +10,7 @@ The user is able to do two things with this application:
 1. Search for a product in the list
 2. Sort the products by ascending or descending order
 
-##Installing the Application
+## Installing the Application
 
 The ideal environment to run the application would be through VS Code as following:
 1. Download the repo
