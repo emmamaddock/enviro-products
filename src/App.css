@@ -28,11 +28,47 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-container {
+  padding: 15px;
+}
+
+.Banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  vertical-align:text-top;
+}
+
+.Banner p {
+  max-width: 500px;
+}
+
+.Sort-dropdown {
+  position:relative;
+  display: inline-block;
+}
+
+.Dropdown-selections {
+  display: none;
+  position: absolute;
+}
+
+.Dropdown-selections > button {
+  display: block;
+}
+
+.Sort-dropdown:hover .Dropdown-selections {
+  display: block;
+}
+
+.Data-manipulation {
+  display: flex;
+  flex-direction: row;
+}
+
+table {
+  width: 50%;
+  padding:10px;
+  text-align: center;
+
 }
