@@ -1,8 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders the page', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const textElement = screen.getByText(/Cano/i);
+  expect(textElement).toBeInTheDocument();
 });
+
+/*further tests would include click events firing, components rendering properly,
+sort functions working properly, search working properly
+*/
