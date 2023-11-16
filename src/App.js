@@ -27,8 +27,8 @@ function App() {
   }
 
   const handleSearching = (searchText) => {
-    var results = tableData.filter(d => {
-      if (searchText === "") return d;
+    var results = enviroObjects.filter(d => {
+      if (searchText === "") return enviroObjects;
       return d.name.toLowerCase().includes(searchText.toLowerCase());
     })
     setSearchText(searchText);
